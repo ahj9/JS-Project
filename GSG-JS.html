@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="GSG-JS.css">
+    <title>Dice Game</title>
+    <script src="GSG.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dice Game</h1>
+    </header>
+    <nav class="thick-border">
+        <ul>
+            <li id="fp">Red Player</li>
+            <li id="td">Throw The Dice</li>
+            <li id="sp">Blue Player</li>
+        </ul>
+    </nav>
+    <form>
+        <p class="dice-shape">The dice is here</p>
+    </form>
+    <main>
+        <section class="player1">
+            <label for="red" class="red"> Total Score: </label>
+            <input type="text" name="red" id="red" value="0" readonly>
+            <br>
+            <label for="red1" class="red">Current Score: </label>
+            <input type="text" name="red1" id="red1" value="0" readonly>
+        </section>
+        <section class="player2">
+            <label for="blue" class="blue"> Total Score: </label>
+            <input type="text" name="blue" id="blue" value="0" readonly>
+            <br>
+            <label for="blue1" class="blue">Current Score: </label>
+            <input type="text" name="blue1" id="blue1" value="0" readonly>
+        </section>
+        <footer id="buttons">
+            <button id="button-roll">Roll Dice</button>
+            <button id="button-hold">Hold</button>
+            <button id="new-game">New Game</button>
+        </footer>
+        <footer>
+            <label for="winer">THE WINER..!!==>></label>
+            <input type="text" id="winer" value="Winer" readonly>
+        </footer>
+    </main>
+</body>
+</html>

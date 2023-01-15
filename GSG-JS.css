@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(130, 7, 7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#fp{
+    background-color: #fff0f0;
+    padding: 20px 170px 20px 170px;
+    color: red;
+    display: flex;
+    justify-content: flex-start;
+    border-color: rgb(180, 230, 251);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#td{
+    padding: 20px 300px 20px 300px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    border-color: rgb(180, 230, 251);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#sp{
+    background-color: #e5f3f9;
+    padding: 20px 170px 20px 170px;;
+    color: blue;
+    display: flex;
+    justify-content: flex-start;
+    border-color: rgb(180, 230, 251);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+section {
+    flex: 0 0 25%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.dice-shape{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#button-roll, #button-hold, #new-game{
+    margin: 10px;
+    padding: 3px 5px 3px 5px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color:white;
+    cursor: pointer;
+}
+
+.player1{
+    background-color: rgb(255, 240, 240);
+    border-radius: 10px;
+}
+.player2{
+    background-color: rgb(240, 240, 255);
+    border-radius: 10px;
+}
+
+#buttons{
+    margin: 450px 750px 20px ;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    margin: 0 750px 20px;
+}
